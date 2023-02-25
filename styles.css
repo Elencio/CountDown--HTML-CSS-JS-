@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+	--light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width:1366px;
+    height: 542px;
+}
+
+.top-image {
+  position: absolute;
+  width: 1366px;
+  height: 133px;
+  left: 0px;
+  top: 0px;
+  background-image: url("./assets/top-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+ span.header {
+  position: absolute;
+  width: 486px;
+  height: 54px;
+  left: 127px;
+  top: 187px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: #6C63FF;
+ }
+
+.bottom-image {
+  position: absolute;
+  width: 1366px;
+  height: 229px;
+  left: 0px;
+  top: 542px;
+  background-image: url("./assets/bottom-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+.rocket {
+  position: absolute;
+  width: 607px;
+  height: 435px;
+  left: 699px;
+  top: 150px;
+  background-image: url("./assets/rocket.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+.rolex {
+  position: absolute;
+  width: 494px;
+  height: 172px;
+  left: 123px;
+  top: 257px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rolex .time {
+    display : flex;
+    position: absolute;
+    width: 41px;
+    height: 21px;
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    
+    color: #C8C8C8;
+      
+} 
+
+.rolex #days, #hours, #minutes, #seconds {
+  position: relative;
+  width: 494px;
+  height: 79px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 108px;
+  
+  color: #4D4C59;
+}
+
+.description span {
+  position: absolute;
+  width: 349px;
+  height: 21px;
+  left: 196px;
+  top: 405px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9C9AB6;
+}
+
+.description button {
+  position: absolute;
+  width: 160px;
+  height: 46px;
+  left: 290px;
+  top: 457px;
+  background: #6C63FF;
+  border-radius: 10px;
+  color: #fff;
+}
